@@ -92,13 +92,29 @@
       <a href="index.html">
         <img src="logo.png" onerror="this.src='https://i.imgur.com/YZ4IgF9.png'" alt="Japan Express Logo" class="h-20 md:h-24 object-contain drop-shadow-sm" />
       </a>
-      <nav class="flex flex-wrap justify-center gap-4 md:gap-8 font-bold text-sm text-[#3D1A78] tracking-wide">
-        <a href="produtos.html" class="hover:text-[#9B59B6] transition">Produtos</a>
-        <a href="index.html#como-funciona" class="hover:text-[#9B59B6] transition">Como Funciona</a>
-        <a href="index.html#unboxing" class="hover:text-[#9B59B6] transition">Unboxing</a>
-        <a href="contato.html" class="text-[#9B59B6] border-b-2 border-[#9B59B6] pb-0.5">Contato</a>
-        <a href="carrinho.html" class="hover:text-[#9B59B6] transition"><i class="fa-solid fa-bag-shopping"></i></a>
-      </nav>
+      <div class="flex flex-col items-center gap-3 md:gap-2">
+          <nav class="flex flex-wrap justify-center gap-4 md:gap-8 font-bold text-sm text-[#3D1A78] tracking-wide">
+              <a href="produtos.html" class="hover:text-[#9B59B6] transition">Produtos</a>
+              <a href="index.html#como-funciona" class="hover:text-[#9B59B6] transition">Como Funciona</a>
+              <a href="index.html#unboxing" class="hover:text-[#9B59B6] transition">Unboxing</a>
+              <a href="contato.html" class="text-[#9B59B6] border-b-2 border-[#9B59B6] pb-0.5">Contato</a>
+          </nav>
+          <div class="flex items-center gap-4">
+              <a href="carrinho.html" class="relative text-[#3D1A78] hover:text-[#9B59B6] transition" title="Carrinho">
+                  <i class="fa-solid fa-bag-shopping text-xl"></i>
+                  <span class="absolute -top-2 -right-2 bg-[#9B59B6] text-white text-[10px] font-black rounded-full w-4 h-4 flex items-center justify-center leading-none">3</span>
+              </a>
+              <a href="favoritos.html" class="text-[#3D1A78] hover:text-[#9B59B6] transition" title="Favoritos">
+                  <i class="fa-regular fa-heart text-xl"></i>
+              </a>
+              <a href="perfil.html" class="text-[#3D1A78] hover:text-[#9B59B6] transition" title="Minha Conta">
+                  <i class="fa-regular fa-circle-user text-xl"></i>
+              </a>
+              <span class="text-[#C9B8E8] font-light select-none">|</span>
+              <a href="login.html" class="text-[#3D1A78] hover:text-[#9B59B6] transition font-bold text-xs tracking-wide uppercase">Entrar</a>
+              <a href="login.html#cadastro" class="bg-[#9B59B6] text-white font-black text-xs px-3 py-1.5 rounded-full hover:bg-[#7D3C98] transition tracking-wide uppercase">Cadastrar</a>
+          </div>
+      </div>
     </header>
 
     <!-- MAIN CONTENT -->
